@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #080808;
+    background-color: #c9c505;
+   
+}
+
+header {
+    padding: 25px ;
+    background-image: url(inovacion.jpeg);
+    color: rgb(255, 251, 25);
+    text-align: center;
+}
+
+header img {
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #1507d1;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #50e216;
+}
+
+
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+.divisor1 {
+    text-align: center;
+    padding:20px;
+    background-color: #dbb716;
+}
+
+
+.recuadroblanca {
+    background-color: #faea0d;
+    color: rgb(3, 3, 3);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.divisor1 iframe{
+ 
+    max-height: 600;
+    max-width: 400;
+
+}
+.recuadroblanca
+{
+background-color:rgb(244, 247, 63) ;
+
+}
+
+  footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(38, 215, 238);
+    height: 65px;
+    padding: 20px;
+  }
+
+  footer img{
+    max-width: 100px;
+    height: auto;
+    align-items:right ;
+    border-radius: 70%;
+}
+footer h1 {
+    color: rgb(38, 215, 238);
+}
+
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-height: 300px;
+        object-fit: cover; 
+        }
+    }
+
+    header img {
+        max-width: 120px;
+    }
+
+
+@media (max-width: 576px) {
+    .divisor1 h1 {
+        font-size: 1.5em;
+    }
+
+    footer img {
+        max-width: 30px;
+    }
+}
+.container{
+text-align: center;
+}
